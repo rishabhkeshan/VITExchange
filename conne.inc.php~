@@ -1,0 +1,6 @@
+<?php
+mysqli_connect('localhost','bookshop','bookshop12345') or die("NOT CONNECTED");
+$cc=mysqli_select_db('project');
+if(!$cc)
+{echo'UNSUCCEFUL CONNECTION';}
+?>
